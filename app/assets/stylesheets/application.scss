@@ -1,0 +1,43 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.header {
+  overflow: hidden;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid black;
+}
+
+.header__nav {
+  float: left;
+}
+
+.header__oauth {
+  float: right;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+}
+
+.nav__item {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.oauth__link--logout {
+  background: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  display: inline;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+

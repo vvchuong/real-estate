@@ -1,0 +1,14 @@
+header.header
+  nav.header__nav
+    ul.nav
+      li.nav__item
+        a ui-sref="index" Index
+      li.nav__item
+        a ui-sref="all" All (unprotected)
+      li.nav__item
+        a ui-sref="me" Me (protected)
+
+  .header__oauth ng-include="'partials/oauth.html'"
+
+div ui-view=""
+
